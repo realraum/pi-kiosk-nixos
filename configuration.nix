@@ -2,6 +2,7 @@
 { lib, pkgs, ... }: {
   imports = [
     ./touch.nix
+    ./kiosk.nix
   ];
 
   systemd.network.enable = true;
